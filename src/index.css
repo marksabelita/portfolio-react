@@ -715,7 +715,7 @@ footer ul {
 
   .grid-2-l-content .details {
       width: 100%;
-      overflow: scroll;
+      overflow-x: scroll;
   }
 
   .hero {
