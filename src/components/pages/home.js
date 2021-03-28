@@ -1,6 +1,5 @@
 import Typed from 'typed.js';
-import React, { useEffect, useState } from 'react'
-import { CSSTransition } from 'react-transition-group';
+import React, { useEffect, } from 'react'
 
 const Home = () => {
     useEffect(() => {
@@ -10,7 +9,6 @@ const Home = () => {
             loop: true,
         });
     })  
-
     return (
         <section className="hero" id="About">
             <div className="hi">Hi<span className="color-green">!</span> </div>
