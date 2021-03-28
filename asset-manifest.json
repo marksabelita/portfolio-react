@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.bb59ac54.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.c9362939.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c9362939.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.14e539e4.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.14e539e4.js.map",
+    "static/js/2.43fb85c1.chunk.js": "/portfolio-react/static/js/2.43fb85c1.chunk.js",
+    "static/js/2.43fb85c1.chunk.js.map": "/portfolio-react/static/js/2.43fb85c1.chunk.js.map",
+    "static/js/3.79027724.chunk.js": "/portfolio-react/static/js/3.79027724.chunk.js",
+    "static/js/3.79027724.chunk.js.map": "/portfolio-react/static/js/3.79027724.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.bb59ac54.chunk.css.map": "/portfolio-react/static/css/main.bb59ac54.chunk.css.map",
+    "static/js/2.43fb85c1.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.43fb85c1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio-react/static/media/Net-SFMono-Regular.9647425e.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14e539e4.js",
+    "static/js/2.43fb85c1.chunk.js",
+    "static/css/main.bb59ac54.chunk.css",
+    "static/js/main.c9362939.chunk.js"
+  ]
+}
