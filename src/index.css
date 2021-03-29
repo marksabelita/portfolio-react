@@ -581,8 +581,13 @@ footer ul {
     display: block;
     cursor: pointer;
     color: var(--green);
+    font-size: 20px;
+    padding-top: 2px;
   }
 
+  .icon-holder img {
+    width: 45px;
+  }
 
   main {
     margin: 0 !important;
