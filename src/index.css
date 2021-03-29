@@ -51,6 +51,10 @@ body{
   display: none;
 }
 
+.icon-holder img {
+  width: 55px;
+}
+
 main {
   padding: 0px 100px;
 }

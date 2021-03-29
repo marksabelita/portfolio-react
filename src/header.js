@@ -66,8 +66,8 @@ const Header = () => {
         boxShadow: sticky && currPos < 0 ? "0 10px 30px -10px rgba(0,0,0,.2)" : 'none'
       }}>
         <nav>
-          <div className="icon-holder">
-            MS
+          <div className="icon-holder"> 
+            <img src={"./assets/ms.png"}/>
           </div>
           <div className="drawer-icon" onClick={() => {displayDrawer(true)}}>
             { !showDrawer ?  <FontAwesomeIcon icon={faAlignRight} /> : '' } 
