@@ -17,7 +17,7 @@ code {
   --blue: #6495ed;
   --white: #d0d0d2;
   --nav-height: 80px;
-  --green: #31afb4;
+  --green: #189287;
   --yellow: #F0EEC5;
   --hard-yellow: #d8c13a;
   --grey-bg: rgba(38, 38, 51, 0.91);
@@ -847,7 +847,7 @@ footer ul {
 
   .profile-image {
       display: block;
-      border: 3px solid var(--green);
+      border: 3px solid #189287;
       margin-top: 0;
       width: 75%;
       margin: 0 auto;
