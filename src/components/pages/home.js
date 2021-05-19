@@ -4,7 +4,7 @@ import React, { useEffect, } from 'react'
 const Home = () => {
     useEffect(() => {
         new Typed('.exp', {
-            strings: ['' ,'Frontend Developer.', 'Backend Developer.', 'Cross platform Developer.'],
+            strings: ['Fullstack Developer' ,'Frontend Developer.', 'Backend Developer.', 'Cross platform Developer.'],
             typeSpeed: 50,
             loop: true,
         });
