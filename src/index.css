@@ -551,7 +551,9 @@ footer ul {
   margin-bottom: 5px; color: #f0eec5;
 }
 
-
+.company-holder {
+  scroll-margin: 100px;
+}
 
 
 @media screen and (max-width: 900px) { 

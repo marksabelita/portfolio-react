@@ -1,5 +1,5 @@
 import CompanyLogos from "../contents/companylogos";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useSwipeable } from 'react-swipeable'
 
 const Experience = () => {
@@ -121,8 +121,14 @@ const Experience = () => {
 
     const [ activeCompany, setActiveCompany ] = useState(companyDetails[0]);
     const [ activeTab, setActiveTab ] = useState('pccw');
+    const itemEls = useRef({});
 
-    const onClickSelectCompany = (value) => {
+    const onClickSelectCompany = (value, index) => {
+        itemEls.current[index].scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+        });
+        ;
         setActiveTab(value);
         const activeCompanyDetails = companyDetails.find((cd) => cd.id === value);
         setActiveCompany(activeCompanyDetails);
@@ -138,7 +144,7 @@ const Experience = () => {
                 currentIndex =  (index === 0) ? companies.length - 1 : index-1;
             }
 
-            onClickSelectCompany(companies[currentIndex].value);
+            onClickSelectCompany(companies[currentIndex].value, currentIndex);
         }
     });
 
@@ -154,9 +160,11 @@ const Experience = () => {
                         <ul className="experience-list">
                             { 
                                 companies.map(({ label, value }, key) => {
+                                    const ref = React.createRef();
+
                                     return( 
-                                        <div key={key} className="company-holder"> 
-                                            <li className={ activeTab === value ? 'active' : '' } onClick={() => { onClickSelectCompany(value) }}>{ label }</li>
+                                        <div key={key} className="company-holder" ref={(element) => itemEls.current[key] = element}> 
+                                            <li className={ activeTab === value ? 'active' : '' } onClick={() => { onClickSelectCompany(value, key) }}>{ label }</li>
                                             <div className={ activeTab === value ? 'triangle-right' : '' }> </div>
                                         </div>
                                     )
