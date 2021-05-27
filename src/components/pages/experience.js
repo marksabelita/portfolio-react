@@ -124,11 +124,12 @@ const Experience = () => {
     const itemEls = useRef({});
 
     const onClickSelectCompany = (value, index) => {
-        itemEls.current[index].scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-        });
-        ;
+        // itemEls.current[index].scrollIntoView({
+        //     top: -100,
+        //     behavior: 'smooth',
+        //     block: 'start',
+        // });
+        
         setActiveTab(value);
         const activeCompanyDetails = companyDetails.find((cd) => cd.id === value);
         setActiveCompany(activeCompanyDetails);
