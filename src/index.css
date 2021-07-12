@@ -193,7 +193,7 @@ ul.experience-list {
 }
 
 .image {
-  width: 300px;
+  width: 230px;
 }
 
 .experience-list li {
@@ -255,7 +255,7 @@ ul.companies::-webkit-scrollbar {
 .profile-image {
   border: 3px solid #189287;
   width: inherit; 
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .company-logos {

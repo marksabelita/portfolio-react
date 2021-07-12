@@ -1,6 +1,6 @@
 const About = () => {
-    const backEnd = ['NodeJs', 'ExpressJs', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Microservices'];
-    const frontEnd = ['Angular', 'ReactJs', 'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks'];
+    const backEnd = ['NodeJS', 'ExpressJS', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Microservices'];
+    const frontEnd = ['ReactJS', 'NextJS', 'Angular',  'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks'];
     const crossPlatform = ['Ionic', 'Electron'];
 
     return (

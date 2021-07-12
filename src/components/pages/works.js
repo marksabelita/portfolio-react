@@ -4,15 +4,22 @@ import WorkRight from '../contents/workright';
 const Works = () => {
     const projects = [
         {
+            name: 'OHSC Elearning Platform',
+            company: 'Freelance (South Africa)',
+            details: 'Administrator panel for OHSC website, this project track hospital status and generates reports.',
+            technologies: 'NextJS(React), Redux, Laravel, AWS',
+            image: 'ohsc-learning.png'
+        },
+        {
             name: 'OHSC Admin',
-            company: 'Freelance',
+            company: 'Freelance (South Africa)',
             details: 'Administrator panel for OHSC website, this project track hospital status and generates reports.',
             technologies: 'Linux Server, CodeIgniter, Typescript, NodeJ',
             image: 'ohsc.png'
         },
         {
             name : "OHSC Offline",
-            company : "Freelance",
+            company : "Freelance (South Africa)",
             details : "Inspector's access that includes set of questioner used for hospital assessment.",
             technologies : "Angular, Ionic, Electron, Typescript, NodeJs",
             image: "ohsc-offiline.png"
