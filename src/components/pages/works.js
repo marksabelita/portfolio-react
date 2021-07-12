@@ -6,7 +6,7 @@ const Works = () => {
         {
             name: 'OHSC Elearning Platform',
             company: 'Freelance (South Africa)',
-            details: 'Administrator panel for OHSC website, this project track hospital status and generates reports.',
+            details: 'This project provides learning materials for medical students and medical staffs.',
             technologies: 'NextJS(React), Redux, Laravel, AWS',
             image: 'ohsc-learning.png'
         },
