@@ -36,7 +36,7 @@ const Experience = () => {
             company: "Freelance",
             date: "December 2019 - Present",
             position: "Freelance Fullstack Developer",
-            stack: ["NextJs", "React", "Laravel", "AWS", "Angular", "CodeIgniter", "NodeJs", "Ionic", "Electron"],
+            stack: ["NextJs", "React", "Laravel", "Angular", "CodeIgniter", "NodeJs", "Ionic", "Electron", "AWS"],
             descriptions: [
                 "Design overall architecture of the web application.",
                 "Collaborate with the rest of the engineering team to design and launch new features.",
@@ -45,7 +45,7 @@ const Experience = () => {
                 "Development experience for both mobile and desktop."
             ]
         },
-        
+
         {
             id: "pccw",
             company: "PCCW Solutions Inc.",
