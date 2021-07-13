@@ -5,12 +5,12 @@ import { useSwipeable } from 'react-swipeable'
 const Experience = () => {
     const companies = [
         {
-            label: "PCCW Solutions",
-            value: "pccw"
-        },
-        {
             label: "Freelancer",
             value: "freelance"
+        },
+        {
+            label: "PCCW Solutions",
+            value: "pccw"
         },
         {
             label: "Outsourced.ph",
