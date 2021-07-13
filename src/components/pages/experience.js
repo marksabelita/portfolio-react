@@ -32,6 +32,20 @@ const Experience = () => {
 
     const companyDetails = [
         {
+            id: "freelance",
+            company: "Freelance",
+            date: "December 2019 - Present",
+            position: "Freelance Fullstack Developer",
+            stack: ["NextJs", "React", "Laravel", "AWS", "Angular", "CodeIgniter", "NodeJs", "Ionic", "Electron"],
+            descriptions: [
+                "Design overall architecture of the web application.",
+                "Collaborate with the rest of the engineering team to design and launch new features.",
+                "Maintain code integrity and organization.",
+                "Experience working with graphic designers and converting designs to visual elements.",
+                "Development experience for both mobile and desktop."
+            ]
+        },
+        {
             id: "pccw",
             company: "PCCW Solutions Inc.",
             date: "April 2020 - Present",
@@ -42,20 +56,6 @@ const Experience = () => {
                 "Collaborate with the rest of the engineering team to design and launch new features.",
                 "Maintain code integrity and organization.",
                 "Development experience for web applications."
-            ]
-        },
-        {
-            id: "freelance",
-            company: "Freelance",
-            date: "December 2019 - Present",
-            position: "Freelance Fullstack Developer",
-            stack: ["Angular", "CodeIgniter", "NodeJs", "Ionic", "Electron"],
-            descriptions: [
-                "Design overall architecture of the web application.",
-                "Collaborate with the rest of the engineering team to design and launch new features.",
-                "Maintain code integrity and organization.",
-                "Experience working with graphic designers and converting designs to visual elements.",
-                "Development experience for both mobile and desktop."
             ]
         },
         {
