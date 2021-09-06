@@ -121,7 +121,7 @@ const Experience = () => {
     ]
 
     const [ activeCompany, setActiveCompany ] = useState(companyDetails[0]);
-    const [ activeTab, setActiveTab ] = useState('pccw');
+    const [ activeTab, setActiveTab ] = useState('freelance');
     const itemEls = useRef({});
 
     const onClickSelectCompany = (value, index) => {
