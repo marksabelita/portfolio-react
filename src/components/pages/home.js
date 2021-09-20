@@ -14,9 +14,8 @@ const Home = () => {
             <div className="hi">Hi<span className="color-green">!</span> </div>
             <div className="im">I'm Mark Sabelita,</div>
             <div className="work"> <span className="yellowish"> I worked as a </span> <span className="exp"> </span></div>
-            <button className="download-button">
-                <a href="./assets/MarkSabelitaCV.pdf" target="_blank">Resume </a>
-            </button>
+
+            <a href="./assets/MarkSabelitaCV.pdf" className="download-button" target="_blank">Download my resume </a>
         </section>
     );
   }

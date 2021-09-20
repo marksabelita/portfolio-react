@@ -157,21 +157,16 @@ main {
   max-width: 900px;;
 }
 
-button.download-button {
-  background: none;
-  padding: 15px 23px;
-  font-size: 15px;
-  border: 2px solid var(--green);
+.download-button {
+  font-size: 12px !important;
+  margin-top: 20px !important;
+  padding: 9px 20px !important;
+  color: white;
   font-weight: bold;
-  margin-top: 35px;
-  color: var(--green);
-  cursor: pointer;
-  font-family: NetSFMonoRegular;
-}
-
-.download-button a{
-  color: var(--green);
+  border-radius: 3px;
   text-decoration: none;
+  background: var(--green);
+  text-transform: uppercase;
 }
 
 button.download-button.send {
@@ -746,9 +741,15 @@ footer ul {
   }
 
   .download-button {
-      font-size: 12px !important;
-      margin-top: 25px !important;
-      padding: 12px 20px !important;
+    font-size: 12px !important;
+    margin-top: 20px !important;
+    padding: 9px 20px !important;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+    background: var(--green);
+    text-transform: uppercase;
   }
 
   .contact h1 {
