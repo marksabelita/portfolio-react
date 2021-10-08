@@ -170,7 +170,7 @@ main {
 }
 
 button.download-button.send {
-  margin-left: 13px;
+  border: 1px solid var(--green) !important;
 }
 
 .yellowish {
@@ -525,6 +525,10 @@ footer ul {
   height: 314px;
 }
 
+.skill-label {
+  color: #9d9d9d
+}
+
 .contact-information {
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
@@ -556,6 +560,11 @@ footer ul {
 
 
 @media screen and (max-width: 900px) { 
+
+
+  .skillset {
+    margin-bottom: 16px;
+  }
 
   .drawer {
     display:block;

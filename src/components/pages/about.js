@@ -11,15 +11,16 @@ const About = () => {
             <div className="grid-3">
                 <div className="details">
                     <div>
-                        <p>
-                            I am a <span className="color-green"> Fullstack developer </span> with more than 7 years of experience in web and cross platform development. 
-                        </p>
-                        
-                        <p>
-                            List are the the technologies I've used for the past 7 years: 
-                        </p>
+                        <h2>
+                            I am a <span className="color-green"> Fullstack developer </span> with almost 8 years of experience in web and cross platform development. 
+                        </h2>
                     </div>
+
                     <br/>
+
+                    <h4 class="skill-label">
+                        List are the technologies that I've experienced working with:  
+                    </h4>
 
                     <div className="skillset">
                         <p className="yellowish"> Backend technologies: </p>
