@@ -178,6 +178,10 @@ button.download-button.send {
   font-weight: bold;
 }
 
+.skillset {
+  margin-bottom: 32px;
+}
+
 
 .experience {
   font-weight: 400;
@@ -912,3 +916,4 @@ footer ul {
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+

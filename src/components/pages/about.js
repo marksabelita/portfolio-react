@@ -1,6 +1,6 @@
 const About = () => {
     const backEnd = ['NodeJS', 'ExpressJS', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Microservices'];
-    const frontEnd = ['ReactJS', 'NextJS', 'Angular',  'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks'];
+    const frontEnd = ['ReactJS', 'NextJS', 'Angular', 'VueJS', 'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks', 'Figma'];
     const crossPlatform = ['Ionic', 'Electron', 'React Native'];
 
     return (
@@ -21,15 +21,15 @@ const About = () => {
                     </div>
                     <br/>
 
-                    <div>
+                    <div className="skillset">
                         <p className="yellowish"> Backend technologies: </p>
                         <p> { backEnd.join(', ') } </p>
                     </div>
-                    <div>
+                    <div className="skillset">
                         <p className="yellowish"> Frontend technologies: </p>
                         <p> { frontEnd.join(', ') } </p>
                     </div>
-                    <div>
+                    <div className="skillset">
                         <p className="yellowish"> Cross platform technologies: </p>
                         <p> { crossPlatform.join(', ') } </p>
                     </div>
