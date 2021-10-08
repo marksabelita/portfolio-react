@@ -523,12 +523,6 @@ footer ul {
 .image-holder img {
   width: 500px;
   height: 314px;
-  opacity: 70%;
-}
-
-
-.image-holder img:hover {
-  opacity: 100%;
 }
 
 .contact-information {
