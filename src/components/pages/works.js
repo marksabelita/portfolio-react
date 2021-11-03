@@ -25,6 +25,13 @@ const Works = () => {
             image: "ohsc-offiline.png"
         },
         {
+            name : "Eden Brothers",
+            company : "Freelance (America)",
+            details : "Customer service portal connected to zendesk for providing item mofication and refunds to customers",
+            technologies : "VueJS, Quasar, NodeJS, Zendesk",
+            image: "edenbroders.png"
+        },
+        {
             name: "CRM Product",
             company: "PCCW (HK/Philippines)",
             details: "Project Involvement includes frontend development on Customer Portal and User access management Page.",

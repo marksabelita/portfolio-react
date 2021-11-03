@@ -1,7 +1,7 @@
 
 
 const CompanyLogos = () => {
-    const companyLogos = [ "pccw.png", "hai.png", "global.svg", "outsourced.png", "sky.png", "cs.png","zeenoh.png"];
+    const companyLogos = [ "hai.png",  "project19.png", "pccw.png", "global.svg", "outsourced.png", "sky.png", "cs.png","zeenoh.png",];
 
     return (
         <ul className="companies">
