@@ -13,7 +13,7 @@ const Home = () => {
         <section className="hero" id="About">
             <div className="hi">Hi<span className="color-green">!</span> </div>
             <div className="im">I'm Mark Sabelita,</div>
-            <div className="work"> <span className="yellowish"> I worked as a </span> <span className="exp"> </span></div>
+            <div className="work"> <span className="yellowish"> I'm a </span> <span className="exp"> </span></div>
 
             <a href="./assets/MarkSabelitaCV.pdf" className="download-button" target="_blank">Download my resume </a>
         </section>
