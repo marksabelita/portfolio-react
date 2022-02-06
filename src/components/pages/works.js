@@ -8,6 +8,7 @@ const Works = () => {
             company: 'Freelance (South Africa)',
             details: 'Office website of health advance institute',
             technologies: 'NextJS(React), Redux, Laravel, AWS, Figma',
+            image: 'haiwebsite.png'
         },
         {
             name: 'OHSC Elearning Platform',
