@@ -4,6 +4,12 @@ import WorkRight from '../contents/workright';
 const Works = () => {
     const projects = [
         {
+            name: 'Health Advance Insitute Website',
+            company: 'Freelance (South Africa)',
+            details: 'Office website of health advance institute',
+            technologies: 'NextJS(React), Redux, Laravel, AWS, Figma',
+        },
+        {
             name: 'OHSC Elearning Platform',
             company: 'Freelance (South Africa)',
             details: 'This project provides learning materials for medical students and medical staffs.',

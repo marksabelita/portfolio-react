@@ -12,7 +12,7 @@ const About = () => {
                 <div className="details">
                     <div>
                         <h2>
-                            I am a <span className="color-green"> Fullstack developer </span> with almost 8 years of experience in web and cross platform development. 
+                            I am a <span className="color-green"> Fullstack developer </span> with more than 8 years of experience in web and cross platform development. 
                         </h2>
                     </div>
 
