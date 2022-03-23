@@ -25,7 +25,7 @@ const NavList = (props) => {
             { hasResume ? 
                 <li style={{textAlign: 'center'}}>
                     <button className="download-button">
-                        <a href="./assets/MarkSabelitaCV.pdf" target="_blank">Resume </a>
+                        <a href="./assets/MarkSabelitaCV.pdf" style={{color: '#fff'}} target="_blank">Download My Resume </a>
                     </button>
                 </li> : ''
             }

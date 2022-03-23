@@ -167,6 +167,7 @@ main {
   text-decoration: none;
   background: var(--green);
   text-transform: uppercase;
+  border: none;
 }
 
 button.download-button.send {
