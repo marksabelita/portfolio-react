@@ -1,6 +1,6 @@
 const About = () => {
     const backEnd = ['NodeJS', 'ExpressJS', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Microservices'];
-    const frontEnd = ['ReactJS', 'NextJS', 'VueJS', 'Quasar', 'Angular', 'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks', 'Figma'];
+    const frontEnd = ['ReactJS', 'NextJS', 'Angular','Ant Design', 'VueJS', 'Quasar', 'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks', 'Figma'];
     const crossPlatform = ['Ionic', 'Electron', 'React Native'];
 
     return (
@@ -35,9 +35,6 @@ const About = () => {
                         <p> { crossPlatform.join(', ') } </p>
                     </div>
                 </div>
-                {/* <div className="image" >
-                    <img src="./assets/mark.jpg" className="profile-image" alt=""/>
-                </div> */}
             </div>
         </section>
 
