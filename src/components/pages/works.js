@@ -1,4 +1,4 @@
-import WorkLeft from '../contents/workleft';
+import WorkLeft from '../contents/work';
 import WorkRight from '../contents/workright';
 
 const Works = () => {
@@ -8,42 +8,31 @@ const Works = () => {
             company: 'Freelance (South Africa)',
             details: 'Office website of health advance institute',
             technologies: 'NextJS(React), Redux, Laravel, AWS, Figma',
-            image: 'haiwebsite.png'
+            images: [
+                { image: '/hai/hai-ohsc-online.png', width: '100%' },
+                { image: '/hai/hai-website.png', width: '100%' },
+                { image: '/hai/hai-elearning.png', width: '100%' },
+                { image: '/hai/hai-ohsc-offline-tablet.png', width: '100%' },
+                { image: '/hai/hai-ohsc-offline-mobile.png', width: '240px' },
+            ]
         },
         {
-            name: 'OHSC Elearning Platform',
-            company: 'Freelance (South Africa)',
-            details: 'This project provides learning materials for medical students and medical staffs.',
-            technologies: 'NextJS(React), Redux, Laravel, AWS',
-            image: 'ohsc-learning.png'
-        },
-        {
-            name: 'OHSC Admin',
-            company: 'Freelance (South Africa)',
-            details: 'Administrator panel for OHSC website, this project track hospital status and generates reports.',
-            technologies: 'Linux Server, CodeIgniter, Typescript, NodeJ',
-            image: 'ohsc.png'
-        },
-        {
-            name : "OHSC Offline",
-            company : "Freelance (South Africa)",
-            details : "Inspector's access that includes set of questioner used for hospital assessment.",
-            technologies : "Angular, Ionic, Electron, Typescript, NodeJs",
-            image: "ohsc-offiline.png"
-        },
-        {
-            name : "Eden Brothers",
+            name : "Project 19",
             company : "Freelance (America)",
             details : "Customer service portal connected to zendesk for providing item mofication and refunds to customers",
             technologies : "VueJS, Quasar, NodeJS, Zendesk",
-            image: "edenbroders.png"
+            images: [
+                { image: '/project19/eden-brothers.png', width: '100%' },
+            ]
         },
         {
             name: "CRM Product",
             company: "PCCW (HK/Philippines)",
             details: "Project Involvement includes frontend development on Customer Portal and User access management Page.",
             technologies: "Angular, Typescript, ES6",
-            image: "pccw.png",
+            images: [
+                { image: '/pccw/pccw.png', width: '100%' },
+            ]
         }, {
             name: "gWorld",
             company: "Global works and travel (Australia) ",
@@ -66,15 +55,22 @@ const Works = () => {
     ]
 
     return (
-        <section id="porfolio" className="hero">
-            <h2 className="title">
+        <section id="porfolio" >
+            {
+                projects.map((project, key) => {
+                    return (
+                        <WorkLeft key={key} details={project}/>
+                    );
+                })
+            
+            /* <h2 className="title">
                 <span  className="number-header"> 03. </span> Latest Projects
             </h2> 
             {
                 projects.map((project, key) => {
-                    return (key % 2  === 0) ? <WorkRight key={key} details={project} /> :  <WorkLeft key={key} details={project}/>
+                    return (key % 2  === 0) ? <WorkRight key={key} details={project} /> : 
                 })
-            }
+            } */}
         </section>
     );
   }

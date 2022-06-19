@@ -18,7 +18,7 @@ const About = () => {
 
                     <br/>
 
-                    <h4 class="skill-label">
+                    <h4 className="skill-label">
                         List are the technologies that I've experienced working with:  
                     </h4>
 

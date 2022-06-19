@@ -927,3 +927,22 @@ footer ul {
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
 
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
