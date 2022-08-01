@@ -2,6 +2,7 @@ const About = () => {
     const backEnd = ['NodeJS', 'ExpressJS', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Microservices'];
     const frontEnd = ['ReactJS', 'NextJS', 'Angular','Ant Design', 'VueJS', 'Quasar', 'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks', 'Figma'];
     const crossPlatform = ['Ionic', 'Electron', 'React Native'];
+    const certifications = ['AWS Certified Solutions Architect – Associate (SAA-C02)'];
 
     return (
         <section className="hero" id="about">
@@ -33,6 +34,11 @@ const About = () => {
                     <div className="skillset">
                         <p className="yellowish"> Cross platform technologies: </p>
                         <p> { crossPlatform.join(', ') } </p>
+                    </div>
+
+                    <div className="skillset">
+                        <p className="yellowish"> Cerfications: </p>
+                        <p> { certifications.join(', ') } </p>
                     </div>
                 </div>
             </div>
