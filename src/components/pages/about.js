@@ -37,7 +37,7 @@ const About = () => {
                     </div>
 
                     <div className="skillset">
-                        <p className="yellowish"> Cerfications: </p>
+                        <p className="yellowish"> Certifications: </p>
                         <p> { certifications.join(', ') } </p>
                     </div>
                 </div>
