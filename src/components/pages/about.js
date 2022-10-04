@@ -1,5 +1,5 @@
 const About = () => {
-    const backEnd = ['NodeJS', 'ExpressJS', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Microservices'];
+    const backEnd = ['NodeJS', 'ExpressJS', 'Laravel', 'CodeIgniter', 'AWS', 'Serverless', 'Docker', 'Jenkins', 'Ansible', 'Terraform', 'Microservices'];
     const frontEnd = ['ReactJS', 'NextJS', 'Angular','Ant Design', 'VueJS', 'Quasar', 'ES6', 'TypeScript', 'SASS', 'LESS', 'CSS Frameworks', 'Figma'];
     const crossPlatform = ['Ionic', 'Electron', 'React Native'];
     const certifications = ['AWS Certified Solutions Architect – Associate (SAA-C02)'];
