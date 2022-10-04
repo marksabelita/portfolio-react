@@ -50,7 +50,7 @@ const Experience = () => {
             id: "pccw",
             company: "PCCW Solutions Inc.",
             date: "April 2020 - July 2021",
-            position: "I06 Solutions Developer",
+            position: "Senior Solutions Developer",
             stack: ["Angular", "TypeScript", "NodeJs", "Java"],
             descriptions: [
                 "Maintain quality and ensure responsiveness of applications.",
